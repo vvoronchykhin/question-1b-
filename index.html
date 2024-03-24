@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>jQuery UI Widgets</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>jQuery UI Widgets</h1>
+  
+  <div class="widget">
+    <h2>Accordion</h2>
+    <div id="accordion">
+      <h3>Interactions</h3>
+      <div>
+        <p>Draggable: allows elements to be dragged around the page</p>
+      </div>
+      <h3>Widgets</h3>
+      <div>
+        <p>Accordion: creates vertically stacked set of content panels with one active at a time</p>
+      </div>
+      <h3>Effects</h3>
+      <div>
+        <p>Show & Hide: show & hide elements using custom effects</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="widget">
+    <h2>Autocomplete</h2>
+    <label for="autocomplete">Search:</label>
+    <input id="autocomplete">
+  </div>
+  
+  <div class="widget">
+    <h2>Date Picker</h2>
+    <label for="datepicker">Select a date:</label>
+    <input type="text" id="datepicker">
+  </div>
+  
+  <div class="widget">
+    <h2>Slider</h2>
+    <label for="slider">Select a value:</label>
+    <div id="slider"></div>
+    <p>Selected value: <span id="slider-value"></span></p>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
